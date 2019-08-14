@@ -15,10 +15,15 @@ public class TestContrller {
     @Autowired
     JdbcTemplate jdbcTemplate;
 
-    @RequestMapping("/say")
+    @RequestMapping("/say1")
     public Object say(String name){
         return  "hello world,"+name;
 }
+
+    @RequestMapping("/say1")
+    public Object say1(String name){
+        return  "hello world,"+name;
+    }
 
     @RequestMapping("/userList")
     public Object userList(){
