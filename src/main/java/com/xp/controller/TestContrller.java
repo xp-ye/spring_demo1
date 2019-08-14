@@ -15,7 +15,7 @@ public class TestContrller {
     @Autowired
     JdbcTemplate jdbcTemplate;
 
-    @RequestMapping("/say1")
+    @RequestMapping("/say")
     public Object say(String name){
         return  "hello world,"+name;
 }
