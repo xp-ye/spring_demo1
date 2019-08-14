@@ -19,6 +19,10 @@ public class TestContrller {
     public Object say(String name){
         return  "hello world,"+name;
 }
+    @RequestMapping("/say2")
+    public Object say2(String name){
+        return  "hello world,"+name;
+    }
 
     @RequestMapping("/say1")
     public Object say1(String name){
